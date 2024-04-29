@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1953265153060155040}
   - component: {fileID: 6605794118262346193}
   - component: {fileID: 8575905103170294003}
-  - component: {fileID: -766709312358782585}
+  - component: {fileID: 7181574281038146044}
   m_Layer: 0
   m_Name: hongogrande
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6605794118262346193
 MeshFilter:
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &-766709312358782585
-BoxCollider:
+--- !u!136 &7181574281038146044
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -102,6 +102,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.78, y: 2.82, z: 0.63}
-  m_Center: {x: -0.38817856, y: 1.4898088, z: 0.022263467}
+  serializedVersion: 2
+  m_Radius: 0.4289856
+  m_Height: 2.8424835
+  m_Direction: 1
+  m_Center: {x: -0.014190674, y: 1.4212418, z: 0.01218462}
